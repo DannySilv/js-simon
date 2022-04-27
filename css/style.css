@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.ml-0-8 {
+    margin-left: 0.8em;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.d-none {
+    display: none;
+}
+
+/* HEADER */
+header {
+    background-color: beige;
+    height: 60px;
+    width: 100%;
+    padding: 0 3em;
+    display: flex;
+    align-items: center;
+}
+
+.left-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-container {
+    width: 5%;
+}
+
+/* MAIN */
+main {
+    background-color: goldenrod;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.crono-container {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 2em;
+    position: relative;
+}
+
+.btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    width: 10%;
+    margin: 0 45%;
+    margin-top: 0.8em;
+}
+
+h3 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.countdown-container {
+    width: 30%;
+    position: absolute;
+    bottom: 7%;
+    left: 35.5%;
+}
+
+.number {
+    font-size: 2.5em;
+}
+
+.number-container {
+    width: 100%;
+    height: 58%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
