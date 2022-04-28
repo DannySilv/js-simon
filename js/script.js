@@ -98,7 +98,7 @@ function userChosenNumbs() {
     for (let i = 1; i <=5; i++) {
         let userNumber;
         userNumber = parseInt (prompt (`Inserisci il ${i}° numero!`));
-        console.log(`il ${i} numero è:`, userNumber);
+        console.log(`${i}° numero è:`, userNumber);
         arrayUserNumbs.push(userNumber);
         };
 };
@@ -130,16 +130,12 @@ function checkNumbs() {
  * @returns {any} -> HTML element
  */
  function genNewElement(number) {
-    // creo un elemnto html
     const newElement = document.createElement("div");
 
-    // agiungo il span con il numero
     newElement.innerHTML = `<span>${number}</span>`
 
-    // assegno la classe grid-item
     newElement.classList.add("number");
 
-    // ritorno elemnto
     return newElement;
 }
 
