@@ -105,8 +105,8 @@ function userChosenNumbs() {
 
 // FUNCTION 4 CHECK-USER-NUMBERS
 /**
- * Description -> Checks if the elements inside arrayUserNumbs are the same of those in rndNumbs 
- * @returns {any}
+ * Description -> Checks if the elements inside arrayUserNumbs are the same of those in rndNumbs and for every common elements the counter increase by 1
+ * @returns {any} -> An alert that tell how many numbers the user got right
  */
 function checkNumbs() {
     let endResult;
